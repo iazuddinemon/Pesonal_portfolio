@@ -1,0 +1,108 @@
+:root{
+    --font-family:"Montserrat", sans-serif;
+}
+
+
+body{
+    font-family:var(--font-family);
+
+}
+
+/* global color */
+:root{
+    --primary-color:#1D4533;
+   --secondary-colro:#F3CD97;
+   --text-color:#0B0909;
+   --white-color:#fff;
+
+}
+
+/* Common css */
+.section-padding{
+  padding:60px 0px;
+}
+
+/* Header Section */
+.Header-bg{
+    background-color: var(--primary-color);
+    
+}
+
+.nav-image{
+    width: 50px;
+    height: 50px;
+}
+
+.header-items a{
+    color: var(--white-color);
+}
+
+.header-items a.active{
+    color: var(--secondary-colro) !important;
+    transition: all 0.3s ease-in-out;
+    font-weight: 600;
+}
+
+.header-items a:hover{
+    color: var(--secondary-colro);
+}
+
+/* Slider Section */
+
+.carousel-inner{
+    width: 100%;
+    height: 93vh;
+}
+
+/* about me */
+
+.about-image{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+.about-contain h4{
+    font-size: 30px;
+    font-width: 600;
+}
+
+.about-contain .icons:hover{
+    transition: all 0.3s ease-in-out;
+}
+
+
+.about-contain .icons{
+ background-color: var(--primary-color);
+ color: var(--white-color);
+ width: 40px;
+ height: 40px;
+ border-radius: 8px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.about-contain .icons:hover{
+    background-color: var(--secondary-colro);
+
+}
+
+.about-contain .icons a{
+    color: var(--white-color);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+/* footer */
+.footer{
+background-color: var(--primary-color);
+padding: 25px 0px;
+color: var(--white-color);
+text-align: center;
+
+}
+
+.footer p{
+    margin-bottom: 0px;
+}
